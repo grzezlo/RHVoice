@@ -1,0 +1,38 @@
+# Copyright (C) 2012  Olga Yakovleva <yakovleva.o.v@gmail.com>
+
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Lesser General Public License as published by
+# the Free Software Foundation, either version 2.1 of the License, or
+# (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Lesser General Public License for more details.
+
+# You should have received a copy of the GNU Lesser General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+# The original tagger is defined in festival/lib/pos.scm
+
+define In około | po | przeciwko | wraz | jako | o | ponieważ | przed | między | przez | dół | dla | od | jeśli | w | nowy | do | na | ponad | przez | tamto | pod | dopóki | góra | podczas | z | bez | niż ;
+define To do;
+define Det wszystkie | inny | jakiś | oba | każdy | wiele | żaden | nie | jakiś | te | to ;
+define Md może | mógł | móc | musi | powinien | będzie | byłby ;
+define Cc i | ale | ani | albo | plus | jeszcze ;
+define Wp jak | co | kiedy | gdzie | kto ;
+define Pps jej | jego | tego | moje | nasze | ich ;
+define Aux jestem | są | być | mieć | ma | mają| jest | był | były;
+
+define FunctionWord In | To | Det | Md | Cc | Wp | Pps | Aux;
+
+regex 
+In -> in || _ ,, 
+To -> to || _ ,, 
+Det -> det || _ ,, 
+Md -> md || _ ,, 
+Cc -> cc || _ ,, 
+Wp -> wp || _ ,, 
+Pps -> pps || _ ,, 
+Aux -> aux || _ ,, 
+\FunctionWord -> content || _ ;
