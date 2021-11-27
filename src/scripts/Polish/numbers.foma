@@ -18,7 +18,7 @@ define Digit %0|NZDigit;
 define Number %0|[NZDigit Digit^<15];
 
 define InsertThousands 
-[..] -> tysiąc || Digit _ Digit^3 .#.;
+[..] -> tysięcy || Digit _ Digit^3 .#.;
 
 define InsertMillions 
 [..] -> milionów || Digit _ Digit^3 tysięcy;
@@ -45,6 +45,16 @@ define UpToThousand %0:zero .P. [[(Hundreds) Teens] | [((Hundreds) Tens) Units]]
 define DigitsToWords 
 UpToThousand @->;
 
+define FixCase 
+tysięcy:tysiąc|milionów:milion|miliardów:miliard|bilionów:bilion -> || jeden _ ,, 
+tysięcy:tysiące|milionów:miliony|miliardów:miliardy|bilionów:biliony -> || dwa|trzy|cztery _ ; 
+
+define RemoveOne 
+jeden -> 0 || .#.|GroupName _ tysiąc,, 
+jeden -> 0 || .#.|GroupName _ milion,, 
+jeden -> 0 || .#.|GroupName _ miliard,, 
+jeden -> 0 || .#.|GroupName _ bilion ; 
+
 regex 
 Number .o. 
 InsertThousands .o. 
@@ -52,4 +62,6 @@ InsertMillions .o.
 InsertBillions .o. 
 InsertTrillions .o. 
 RemoveSkippedParts .o. 
-DigitsToWords ; 
+DigitsToWords .o. 
+FixCase .o. 
+RemoveOne ;
