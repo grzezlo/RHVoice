@@ -69,6 +69,7 @@ namespace RHVoice
 
     const polish_info& info;
     const fst g2p_fst;
+    const fst lseq_fst;
   };
 }
 #endif

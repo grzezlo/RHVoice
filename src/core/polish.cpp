@@ -72,7 +72,8 @@ namespace RHVoice
   polish::polish(const polish_info& info_):
     language(info_),
     info(info_),
-    g2p_fst(path::join(info_.get_data_path(),"g2p.fst"))
+    g2p_fst(path::join(info_.get_data_path(),"g2p.fst")),
+    lseq_fst(path::join(info_.get_data_path(),"lseq.fst"))
   {
   }
 
@@ -80,7 +81,10 @@ namespace RHVoice
   {
     std::vector<std::string> transcription;
     const std::string& name=word.get("name").as<std::string>();
-    g2p_fst.translate(str::utf8_string_begin(name),str::utf8_string_end(name),std::back_inserter(transcription));
+    if(word.has_feature("lseq"))
+      lseq_fst.translate(str::utf8_string_begin(name),str::utf8_string_end(name),std::back_inserter(transcription));
+    else
+      g2p_fst.translate(str::utf8_string_begin(name),str::utf8_string_end(name),std::back_inserter(transcription));
     return transcription;
   }
 
