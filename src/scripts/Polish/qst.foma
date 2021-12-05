@@ -17,7 +17,7 @@ source gpos.foma
 clear
 
 define WhInitialConjunction 
-a | no | i | [tak (i)] | inaczej | tylko | to ; 
+a | no | i | [tak (i)] | inaczej | tylko | to | co | czy ; 
 
 define StartOfWhQuestion 
 (WhInitialConjunction) (Preposition) Relative ; 
