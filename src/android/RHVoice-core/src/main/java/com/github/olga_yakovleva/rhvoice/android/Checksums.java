@@ -38,6 +38,7 @@ final class Checksums
     public static final byte[] VOICE_ELENA={-68, -24, 107, 53, -31, -6, -84, -50, -85, 11, -30, -87, -102, -83, -109, -107};
     public static final byte[] VOICE_IRINA={113, -73, -15, 15, -96, 49, -87, 44, -78, -25, 104, 34, 41, 81, -52, -121};
     public static final byte[] VOICE_YURIY={-91, 56, 114, 1, -13, 112, -33, 55, -1, 85, 12, 122, 87, 31, 65, 55};
+    public static final byte[] VOICE_VITALIY={36, 102, -84, -43, 78, -102, -121, 126, -90, 57, -24, -109, -121, -96, 40, -51};
     public static final byte[] VOICE_ARTEMIY={103, 108, -32, 37, 119, 69, 116, -76, 87, -22, 113, 57, -4, -67, -71, -77};
     public static final byte[] VOICE_ARINA={-122, 124, 108, -90, 60, 104, -16, 58, 56, -45, -63, 113, -121, 119, -122, 48};
     public static final byte[] VOICE_PAVEL={-119, -116, -128, 114, 30, 4, -18, -33, -119, -46, 28, 26, 110, 45, -22, -49};
@@ -56,4 +57,6 @@ final class Checksums
     public static final byte[] VOICE_LETICIA={73, 46, -107, 59, -104, 94, 58, -36, -68, 30, -43, 4, 120, 51, -34, 7};
     public static final byte[] LANGUAGE_MACEDONIAN={99, 8, -33, 82, -100, 22, 44, -106, 60, 1, 119, 63, 70, -58, -1, -45};
     public static final byte[] VOICE_MAC_MALE1={72, 81, 62, -69, -76, 120, -91, 103, -87, 28, -14, -92, 83, -27, 28, -80};
+    public static final byte[] LANGUAGE_ALBANIAN={-33, -101, -29, -91, -100, -53, 20, -19, -36, 25, 106, 76, 117, -86, 44, -77};
+    public static final byte[] VOICE_HANA={-58, -98, 13, -89, -117, -92, -84, 112, 94, 90, -41, 59, 5, 124, -50, -46};
 }
