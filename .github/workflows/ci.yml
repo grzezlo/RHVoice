@@ -4,10 +4,12 @@ on:
   push:
     branches:
       - 'master'
+      - 'polish-language-work'
 
   pull_request:
     branches:
       - 'master'
+- 'polish-language-work'
 
 jobs:
   androidBuild:
