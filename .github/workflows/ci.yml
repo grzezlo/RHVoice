@@ -7,7 +7,7 @@ on:
 
   pull_request:
     branches:
-- 'polish-language-work'
+    - 'polish-language-work'
 
 jobs:
   androidBuild:
