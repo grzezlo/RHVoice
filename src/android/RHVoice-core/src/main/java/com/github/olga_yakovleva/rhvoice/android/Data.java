@@ -92,6 +92,9 @@ public final class Data
         lang=new LanguagePack("Albanian", "sqi", "sq", "ALB", "AL", false, 1, 19, Checksums.LANGUAGE_ALBANIAN, "https://rhvoice.org/download/RHVoice-LP-language-Albanian-v1.19.zip", null);
         lang.addVoice(new VoicePack("Hana", lang, 4, 4, Checksums.VOICE_HANA, "https://rhvoice.org/download/RHVoice-LP-voice-Hana-v4.4.zip", null));
         addLanguage(lang);
+        lang=new LanguagePack("Polish", "pol", "pl", "POL", "PL", false, 1, 3, Checksums.LANGUAGE_POLISH, "http://przytulnemiejsce.pl/asael/RHVoice-language-Polish-v1.3.zip", null);
+        lang.addVoice(new VoicePack("Lvoxpiotr", lang, 4, 1, Checksums.VOICE_LVOXPIOTR, "http://przytulnemiejsce.pl/asael/RHVoice-voice-Polish-Lvoxpiotr-v4.1.zip", null));
+        addLanguage(lang);
 }
 
     public static LanguagePack getLanguage(String name)
