@@ -1,4 +1,4 @@
-# Copyright (C) 2012, 2013  Olga Yakovleva <yakovleva.o.v@gmail.com>
+# Copyright (C) 2021 Grzegorz Zlotowicz  <grzezlo@gmail.com>
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Lesser General Public License as published by
@@ -82,4 +82,3 @@ en: e] @-> || _ w ;
 
 regex Stage1 .o.
 Stage2 ;
-#regex Stage1 ;
