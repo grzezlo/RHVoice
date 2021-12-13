@@ -1,4 +1,4 @@
-# Copyright (C) 2021  Zvonimir Stanecic <zvonimirek222@yandex.com>
+# Copyright (C) 2012  Olga Yakovleva <yakovleva.o.v@gmail.com>
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Lesser General Public License as published by
@@ -13,31 +13,6 @@
 # You should have received a copy of the GNU Lesser General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-source gpos.foma
-clear
-
-define WhInitialConjunction 
-a | no | i | [tak (i)] | inaczej | tylko | to | co | czy ; 
-
-define StartOfWhQuestion 
-(WhInitialConjunction) (Preposition) Relative ; 
-
-define DefaultTagger 
-[..] -> %= q || _ .#. ; 
-
-define WhQuestionTagger 
-q -> whq || [.#.|%-] StartOfWhQuestion ?+ %= _ .#. ; 
-
-define ElQuestionTagger 
-q -> elq || .#. a (Preposition) ? %= _ .#. ; 
-
-define AltQuestionTagger 
-q -> altq || lub ?+ %= _ .#. ; 
-
-define Tagger 
-DefaultTagger .o. 
-AltQuestionTagger .o. 
-WhQuestionTagger .o. 
-ElQuestionTagger ; 
-
-regex Tagger ; 
+regex 
+character:znak %%d | 
+capital:duże %%c ; 
