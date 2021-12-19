@@ -37,7 +37,6 @@ l:l |
 ł:w | 
 m:m | 
 n:n | 
-{ni}: ni |
 ń:ni | 
 o:o | 
 ó:u | 
@@ -55,7 +54,6 @@ v:v |
 x:{ks} | 
 y:ih | 
 z:z | 
-zi:zi | 
 ź:zi |
 ż: zh ;
 
@@ -70,10 +68,15 @@ define Stage2
 zh @-> sh || [h|k|p|t] _ ,, 
 SofteningWZ @-> || SofteningConsonantPhonem _ ,,
 SofteningWZ @-> || _ SofteningConsonantPhonem ,,
-i @-> 0 || n _ VowelPhonem ,,
 [{ci}: ci | 
+{ni}: ni | 
+{si}: si | 
+{zi}: zi | 
 [dz i]: dzi ] @->  || _ VowelPhonem ,,
 [{ci}: [ci i] | 
+{ni}: [ni i] | 
+{si}: [si i] | 
+{zi}: [zi i] | 
 [dz i]: [dzi i] ] @-> || _ ConsonantPhonem ,,
 i @-> y || _ VowelPhonem ,,
 [on : o |
