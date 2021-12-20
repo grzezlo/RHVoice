@@ -77,7 +77,7 @@ SofteningWZ @-> || _ SofteningConsonantPhonem ,,
 {ni}: [ni i] | 
 {si}: [si i] | 
 {zi}: [zi i] | 
-[dz i]: [dzi i] ] @-> || _ ConsonantPhonem ,,
+[dz i]: [dzi i] ] @-> || _ [\VowelPhonem | .#. ],,
 i @-> y || _ VowelPhonem ,,
 [on : o |
 en: e] @-> || _ w ;
