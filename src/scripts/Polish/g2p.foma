@@ -43,7 +43,6 @@ o:o |
 p:p | 
 q:{ku} | 
 r:r | 
-{rz}: zh |
 s:s | 
 {sz}:sh | 
 ś:si | 
@@ -58,6 +57,10 @@ z:z |
 ż: zh ;
 
 define Stage1 InitialTranscribe @-> ;
+
+define processRz1 {rz} @-> rz || {ma} _ l|w|n|ni ;
+define processRz2 {rz} @-> zh ||  _ ;
+define processRz3 rz @-> r z || _ ;
 
 define VowelPhonem [a | on | e | en | i | o | u | ih ] ;
 define ConsonantPhonem [b|c|ch|ci|d|dz|dzi|j|f|g|h|y|k|l|w|m|n|ni|p|r|s|sh|si|t|v|z|zi|zh] ;
@@ -84,4 +87,7 @@ en: e] @-> || _ w ;
 
 
 regex Stage1 .o.
+processRz1 .o.
+processRz2 .o.
+processRz3 .o.
 Stage2 ;
