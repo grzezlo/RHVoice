@@ -58,8 +58,13 @@ z:z |
 
 define Stage1 InitialTranscribe @-> ;
 
-define processRz1 {rz} @-> rz || {ma} _ l|w|n|ni ;
-define processRz2 {rz} @-> zh ||  _ ;
+define processRz1 {rz} @-> rz || {ma} _ a|l|w|n|ni ;
+define processRz2 {rz} @-> zh ||  _ ,,
+#umarza, umarzalność...
+rz @-> zh || {uma} _ a ,,
+#marzanna:
+rz @-> zh || {ma} _ {ann} ;
+
 define processRz3 rz @-> r z || _ ;
 
 define VowelPhonem [a | on | e | en | i | o | u | ih ] ;
