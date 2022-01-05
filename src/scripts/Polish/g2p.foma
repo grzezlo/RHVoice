@@ -86,10 +86,10 @@ SofteningWZ @-> || _ SofteningConsonantPhonem ,,
 {ni}: [ni i] | 
 {si}: [si i] | 
 [dz i]: [dzi i] ] @-> || _ [\VowelPhonem | .#. ],,
-{zi} @-> [zi i] || \.#. _ ,
+{zi} @-> [zi i] || \.#. _ \VowelPhonem|.#. ,
 #zim, zima, zimo, zimu, zimy:
 .#. _ m [.#.|a|on|en|n|o|u|ih],
-#zip, zip*:
+#zip*
 .#. _ p,,
 i @-> y || _ VowelPhonem ,,
 [on : o |
