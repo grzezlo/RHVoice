@@ -79,7 +79,8 @@ zh:sh] ;
 
 define Stage2 
 Softening @-> || SofteningConsonantPhonem _ ,
- _ SofteningConsonantPhonem|.#. ,,
+ _ SofteningConsonantPhonem,
+ \.#. _ .#. ,,
  #Before vowel:
 [{ci}: ci | 
 {ni}: ni | 
