@@ -58,40 +58,49 @@ z:z |
 
 define Stage1 InitialTranscribe @-> ;
 
-define processRz1 {rz} @-> rz || {ma} _ a|l|w|n|ni ,,
-{rz} @-> rz || {supe}| {hipe} _ ;
+define processRz1 {rz} @-> rz ||
+{ma} _ a|l|w|n|ni ,
+{supe}| {hipe} _ ;
+
 define processRz2 {rz} @-> zh ||  _ ,,
 #umarza, umarzalność...
-rz @-> zh || {uma} _ a ,,
+rz @-> zh || {uma} _ a ,
 #marzanna:
-rz @-> zh || {ma} _ {ann} ;
+{ma} _ {ann} ;
 
 define processRz3 rz @-> r z || _ ;
 
 define VowelPhonem [a | on | e | en | i | o | u | ih ] ;
 define ConsonantPhonem [b|c|ch|ci|d|dz|dzi|j|f|g|h|y|k|l|w|m|n|ni|p|r|s|sh|si|t|v|z|zi|zh] ;
-define SofteningConsonantPhonem [c|h|k|p|s|sh|si|t] ;
-define SofteningWZ [v:f | z: s ] ;
+define SofteningConsonantPhonem [c|ch|h|k|p|s|sh|si|t] ;
+define Softening [v:f|
+z: s|
+zh:sh] ;
 
 define Stage2 
-zh @-> sh || [h|k|p|t] _ ,, 
-SofteningWZ @-> || SofteningConsonantPhonem _ ,,
-SofteningWZ @-> || _ SofteningConsonantPhonem ,,
+Softening @-> || SofteningConsonantPhonem _ ,
+ _ SofteningConsonantPhonem,
+ \.#. _ .#. ,,
+ #Before vowel:
 [{ci}: ci | 
 {ni}: ni | 
 {si}: si | 
 {zi}: zi | 
 [dz i]: dzi ] @->  || _ VowelPhonem ,,
+#Before consonant or word boundary:
 [{ci}: [ci i] | 
 {ni}: [ni i] | 
 {si}: [si i] | 
 [dz i]: [dzi i] ] @-> || _ [\VowelPhonem | .#. ],,
+#"zi" to z i or "zi i":
 {zi} @-> [zi i] || \.#. _ \VowelPhonem|.#. ,
 #zim, zima, zimo, zimu, zimy:
 .#. _ m [.#.|a|on|en|n|o|u|ih],
 #zip*
 .#. _ p,,
+#e.g. historia to historja:
 i @-> y || _ VowelPhonem ,,
+#e.g.: zaczął=zaczoł, zaczęła=zaczeła:
 [on : o |
 en: e] @-> || _ w ;
 
