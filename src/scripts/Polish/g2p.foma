@@ -81,7 +81,7 @@ define processMultigraphs3
 rz @-> r z || _ ;
 
 define VowelPhonem [a | on | e | en | i | o | u | ih ] ;
-define ConsonantPhonem [b|c|ch|ci|d|dz|dzi|j|f|g|h|y|k|l|w|m|n|ni|p|r|s|sh|si|t|v|z|zi|zh] ;
+define ConsonantPhonem [b|c|ch|ci|d|dz|dzi|dzh|f|g|h|y|k|l|w|m|n|ni|p|r|s|sh|si|t|v|z|zi|zh] ;
 define SofteningConsonantPhonem [c|ch|h|k|p|s|sh|si|t] ;
 define Softening [
 v:f|
