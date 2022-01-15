@@ -8,7 +8,7 @@
   <phoneme name="d" vc="-" son="-" cont="-" ctype="s" cor="+" cplace="a" cvox="+"/>
   <phoneme name="dz" vc="-" son="-" cont="-" ctype="a" csib="+" cor="+" cplace="a" cvox="+"/>
   <phoneme name="dzi" vc="-" son="-" cont="-" ctype="a" csib="+" cor="+" cplace="p" cvox="+"/>
-  <phoneme name="j" vc="-" son="-" cont="-" ctype="a" csib="+" cor="+" cplace="p" cvox="+"/>
+  <phoneme name="dzh" son="-" vc="-" cont="-" ctype="a" csib="+" cor="+" cplace="p" cvox="+"/>
   <phoneme name="e" vc="+" vheight="2" vfront="3" vrnd="-"/>
   <phoneme name="en" vc="+" vheight="2" vfront="3" vrnd="-"/>
   <phoneme name="f" vc="-" son="-" cont="+" ctype="f" cplace="l" clab="+" cvox="-"/>
