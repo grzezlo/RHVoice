@@ -1,5 +1,4 @@
 QS prev_prev_clab==+ { "b^*","f^*","m^*","p^*","v^*","w^*" }
-QS prev_prev_name==x { "x^*" }
 QS prev_son==- { "*^b-*","*^c-*","*^ch-*","*^ci-*","*^d-*","*^dz-*","*^dzh-*","*^dzi-*","*^f-*","*^g-*","*^h-*","*^k-*","*^p-*","*^s-*","*^sh-*","*^si-*","*^t-*","*^v-*","*^z-*","*^zh-*","*^zi-*" }
 QS prev_cor==+ { "*^c-*","*^ch-*","*^ci-*","*^d-*","*^dz-*","*^dzh-*","*^dzi-*","*^r-*","*^s-*","*^sh-*","*^si-*","*^t-*","*^z-*","*^zi-*" }
 QS prev_csib==+ { "*^c-*","*^ch-*","*^ci-*","*^dz-*","*^dzh-*","*^dzi-*","*^s-*","*^sh-*","*^si-*","*^z-*","*^zh-*","*^zi-*" }
@@ -10,7 +9,6 @@ QS prev_son==-&&cplace==a { "*^c-*","*^d-*","*^dz-*","*^s-*","*^t-*","*^z-*" }
 QS prev_clab==+ { "*^b-*","*^f-*","*^m-*","*^p-*","*^v-*","*^w-*" }
 QS prev_csib==+&&cplace==a { "*^c-*","*^dz-*","*^s-*","*^z-*" }
 QS prev_son==-&&clab==+ { "*^b-*","*^f-*","*^p-*","*^v-*" }
-QS prev_ccor==+ { "*^l-*","*^n-*","*^ni-*","*^zh-*" }
 QS prev_cplace==b { "*^b-*","*^p-*","*^v-*" }
 QS prev_son==+&&cplace==a { "*^l-*","*^n-*","*^r-*" }
 QS prev_cont==-&&clab==+ { "*^b-*","*^m-*","*^p-*" }
@@ -28,21 +26,21 @@ QS prev_name==zh { "*^zh-*" }
 QS vc==- { "*-b+*","*-c+*","*-ch+*","*-ci+*","*-d+*","*-dz+*","*-dzh+*","*-dzi+*","*-f+*","*-g+*","*-h+*","*-k+*","*-l+*","*-m+*","*-n+*","*-ni+*","*-p+*","*-r+*","*-s+*","*-sh+*","*-si+*","*-t+*","*-v+*","*-w+*","*-y+*","*-z+*","*-zh+*","*-zi+*" }
 QS son==- { "*-b+*","*-c+*","*-ch+*","*-ci+*","*-d+*","*-dz+*","*-dzh+*","*-dzi+*","*-f+*","*-g+*","*-h+*","*-k+*","*-p+*","*-s+*","*-sh+*","*-si+*","*-t+*","*-v+*","*-z+*","*-zh+*","*-zi+*" }
 QS cvox==+ { "*-b+*","*-d+*","*-dz+*","*-dzh+*","*-dzi+*","*-g+*","*-l+*","*-m+*","*-n+*","*-ni+*","*-r+*","*-v+*","*-w+*","*-y+*","*-z+*","*-zh+*","*-zi+*" }
-QS cont==- { "*-b+*","*-c+*","*-ch+*","*-ci+*","*-d+*","*-dz+*","*-dzh+*","*-dzi+*","*-g+*","*-k+*","*-m+*","*-n+*","*-ni+*","*-p+*","*-t+*" }
+QS cont==- { "*-b+*","*-c+*","*-ch+*","*-ci+*","*-d+*","*-dz+*","*-dzh+*","*-g+*","*-k+*","*-m+*","*-n+*","*-ni+*","*-p+*","*-t+*" }
 QS cor==+ { "*-c+*","*-ch+*","*-ci+*","*-d+*","*-dz+*","*-dzh+*","*-dzi+*","*-r+*","*-s+*","*-sh+*","*-si+*","*-t+*","*-z+*","*-zi+*" }
 QS cor==+&&son==- { "*-c+*","*-ch+*","*-ci+*","*-d+*","*-dz+*","*-dzh+*","*-dzi+*","*-s+*","*-sh+*","*-si+*","*-t+*","*-z+*","*-zi+*" }
 QS cont==+ { "*-f+*","*-h+*","*-l+*","*-r+*","*-s+*","*-sh+*","*-si+*","*-v+*","*-w+*","*-y+*","*-z+*","*-zh+*","*-zi+*" }
 QS csib==+ { "*-c+*","*-ch+*","*-ci+*","*-dz+*","*-dzh+*","*-dzi+*","*-s+*","*-sh+*","*-si+*","*-z+*","*-zh+*","*-zi+*" }
 QS cvox==- { "*-c+*","*-ch+*","*-ci+*","*-f+*","*-h+*","*-k+*","*-p+*","*-s+*","*-sh+*","*-si+*","*-t+*" }
 QS cplace==p { "*-ch+*","*-ci+*","*-dzh+*","*-dzi+*","*-ni+*","*-sh+*","*-si+*","*-y+*","*-zh+*","*-zi+*" }
+QS cvox==+&&son==- { "*-b+*","*-d+*","*-dz+*","*-dzh+*","*-dzi+*","*-g+*","*-v+*","*-z+*","*-zh+*","*-zi+*" }
 QS cplace==a { "*-c+*","*-d+*","*-dz+*","*-l+*","*-n+*","*-r+*","*-s+*","*-t+*","*-z+*" }
 QS vc==+ { "*-a+*","*-e+*","*-en+*","*-i+*","*-ih+*","*-o+*","*-on+*","*-u+*" }
-QS cont==+&&cvox==+ { "*-l+*","*-r+*","*-v+*","*-w+*","*-y+*","*-z+*","*-zh+*","*-zi+*" }
 QS son==+ { "*-l+*","*-m+*","*-n+*","*-ni+*","*-r+*","*-w+*","*-y+*" }
 QS cvox==+&&cplace==p { "*-dzh+*","*-dzi+*","*-ni+*","*-y+*","*-zh+*","*-zi+*" }
-QS cont==-&&cvox==+&&son==- { "*-b+*","*-d+*","*-dz+*","*-dzh+*","*-dzi+*","*-g+*" }
 QS cvox==+&&csib==+ { "*-dz+*","*-dzh+*","*-dzi+*","*-z+*","*-zh+*","*-zi+*" }
 QS clab==+ { "*-b+*","*-f+*","*-m+*","*-p+*","*-v+*","*-w+*" }
+QS cor==+&&cvox==+&&son==- { "*-d+*","*-dz+*","*-dzh+*","*-dzi+*","*-z+*","*-zi+*" }
 QS cvox==-&&csib==+ { "*-c+*","*-ch+*","*-ci+*","*-s+*","*-sh+*","*-si+*" }
 QS cont==+&&cplace==p { "*-sh+*","*-si+*","*-y+*","*-zh+*","*-zi+*" }
 QS cvox==-&&ctype==f { "*-f+*","*-h+*","*-s+*","*-sh+*","*-si+*" }
@@ -50,7 +48,6 @@ QS vrnd==- { "*-a+*","*-e+*","*-en+*","*-i+*","*-ih+*" }
 QS cvox==+&&csib==+&&cplace==p { "*-dzh+*","*-dzi+*","*-zh+*","*-zi+*" }
 QS cvox==+&&ctype==f { "*-v+*","*-z+*","*-zh+*","*-zi+*" }
 QS cont==-&&cor==+&&cvox==- { "*-c+*","*-ch+*","*-ci+*","*-t+*" }
-QS cont==-&&cor==+&&cvox==+ { "*-d+*","*-dz+*","*-dzh+*","*-dzi+*" }
 QS vheight==2 { "*-e+*","*-en+*","*-o+*","*-on+*" }
 QS vfront==1 { "*-ih+*","*-o+*","*-u+*" }
 QS cor==+&&cvox==+&&cplace==p { "*-dzh+*","*-dzi+*","*-zi+*" }
@@ -59,6 +56,7 @@ QS cvox==-&&cplace==a { "*-c+*","*-s+*","*-t+*" }
 QS cvox==-&&ctype==a { "*-c+*","*-ch+*","*-ci+*" }
 QS vrnd==+ { "*-o+*","*-on+*","*-u+*" }
 QS cvox==+&&ctype==s { "*-b+*","*-d+*","*-g+*" }
+QS vfront==3&&vheight==2 { "*-e+*","*-en+*","*-on+*" }
 QS vfront==3&&vrnd==- { "*-e+*","*-en+*","*-i+*" }
 QS cvox==-&&clab==+ { "*-f+*","*-p+*" }
 QS vfront==1&&vrnd==+ { "*-o+*","*-u+*" }
@@ -73,6 +71,7 @@ QS name==ch { "*-ch+*" }
 QS name==ci { "*-ci+*" }
 QS name==d { "*-d+*" }
 QS name==en { "*-en+*" }
+QS name==g { "*-g+*" }
 QS name==h { "*-h+*" }
 QS name==i { "*-i+*" }
 QS name==ih { "*-ih+*" }
@@ -91,10 +90,11 @@ QS name==y { "*-y+*" }
 QS name==z { "*-z+*" }
 QS name==zi { "*-zi+*" }
 QS next_son==- { "*+b=*","*+c=*","*+ch=*","*+ci=*","*+d=*","*+dz=*","*+dzh=*","*+dzi=*","*+f=*","*+g=*","*+h=*","*+k=*","*+p=*","*+s=*","*+sh=*","*+si=*","*+t=*","*+v=*","*+z=*","*+zh=*","*+zi=*" }
+QS next_cvox==+ { "*+b=*","*+d=*","*+dz=*","*+dzh=*","*+dzi=*","*+g=*","*+l=*","*+m=*","*+n=*","*+ni=*","*+r=*","*+v=*","*+w=*","*+y=*","*+z=*","*+zh=*","*+zi=*" }
 QS next_cor==+ { "*+c=*","*+ch=*","*+ci=*","*+d=*","*+dz=*","*+dzh=*","*+dzi=*","*+r=*","*+s=*","*+sh=*","*+si=*","*+t=*","*+z=*","*+zi=*" }
-QS next_cont==-&&son==- { "*+b=*","*+c=*","*+ch=*","*+ci=*","*+d=*","*+dz=*","*+dzh=*","*+dzi=*","*+g=*","*+k=*","*+p=*","*+t=*" }
 QS next_csib==+ { "*+c=*","*+ch=*","*+ci=*","*+dz=*","*+dzh=*","*+dzi=*","*+s=*","*+sh=*","*+si=*","*+z=*","*+zh=*","*+zi=*" }
 QS next_cvox==- { "*+c=*","*+ch=*","*+ci=*","*+f=*","*+h=*","*+k=*","*+p=*","*+s=*","*+sh=*","*+si=*","*+t=*" }
+QS next_cont==-&&son==- { "*+b=*","*+c=*","*+ch=*","*+ci=*","*+d=*","*+dz=*","*+dzh=*","*+g=*","*+k=*","*+p=*","*+t=*" }
 QS next_cplace==p { "*+ch=*","*+ci=*","*+dzh=*","*+dzi=*","*+ni=*","*+sh=*","*+si=*","*+y=*","*+zh=*","*+zi=*" }
 QS next_cplace==a { "*+c=*","*+d=*","*+dz=*","*+l=*","*+n=*","*+r=*","*+s=*","*+t=*","*+z=*" }
 QS next_csib==+&&cplace==p { "*+ch=*","*+ci=*","*+dzh=*","*+dzi=*","*+sh=*","*+si=*","*+zh=*","*+zi=*" }
@@ -121,7 +121,7 @@ QS next_name==r { "*+r=*" }
 QS next_name==x { "*+x=*" }
 QS next_next_name==en { "*=en@*" }
 QS next_next_name==x { "*=x@*" }
-QS pos_in_syl_bw==x { "*_x/A:*" }
+QS pos_in_syl_fw==x { "*@x_*" }
 QS syl_pos_in_phrase_fw<=1 { "*&x-*","*&1-*" }
 QS syl_pos_in_phrase_bw<=1 { "*-x#*","*-1#*" }
 QS syl_vowel==en { "*;en/C:*" }
@@ -129,6 +129,7 @@ QS next_syl_length<=0 { "*+0/D:*" }
 QS num_syls_in_prev_word==4 { "*_4/E:*" }
 QS word_gpos==conj { "*/E:conj+*" }
 QS num_content_words_in_phrase_after_this_word<=9 { "*+x#*","*+0#*","*+1#*","*+2#*","*+3#*","*+4#*","*+5#*","*+6#*","*+7#*","*+8#*","*+9#*" }
+QS num_syls_in_prev_phrase<=1 { "*/G:0_*","*/G:1_*" }
 QS num_words_in_prev_phrase<=0 { "*_0/H:*" }
 QS num_words_in_phrase==x { "*=x^*" }
 QS phrase_pos_in_utt_fw==x { "*^x=*" }
@@ -144,62 +145,62 @@ QS num_words_in_utt==11 { "*+11-*" }
   -2 prev_son==-                                       -11         -8    
   -3 prev_son==-                                        -4        -27    
   -4 next_name==x                                       -6        -37    
-  -5 cvox==+&&ctype==f                                  -7        -15    
+  -5 cvox==+&&ctype==f                                  -7        -14    
   -6 cvox==-&&ctype==f                                 -17        -25    
-  -7 cont==-                                           -10        -13    
+  -7 cont==+                                           -12        -10    
   -8 name==i                                            -9          "mgc_s2_1" 
   -9 prev_cor==+                                       -22        -16    
  -10 name==r                                           -18        -35    
- -11 vheight==3                                        -12        -43    
- -12 prev_cplace==p                                    -20        -40    
- -13 cont==-&&cor==+&&cvox==+                          -14        -44    
- -14 prev_son==-                                       -23        -57    
- -15 csib==+                                           -34        -31    
- -16 vrnd==+                                           -19        -50    
- -17 vc==-                                             -30        -21    
+ -11 vheight==3                                        -15        -43    
+ -12 cor==+&&cvox==+&&son==-                           -13        -44    
+ -13 prev_son==-                                       -23        -57    
+ -14 csib==+                                           -34        -33    
+ -15 prev_cplace==p                                    -20        -40    
+ -16 vrnd==+                                           -19        -52    
+ -17 vc==-                                             -29        -21    
  -18 prev_son==-                                       -41        -28    
  -19 prev_cplace==p                                    -32          "mgc_s2_2" 
  -20 prev_son==+&&cplace==a                              "mgc_s2_3"     -26    
  -21 cont==-&&cor==+&&cvox==-                          -45        -24    
- -22 vrnd==+                                           -39        -33    
+ -22 vrnd==+                                           -38        -31    
  -23 cvox==+&&ctype==s                                 -36        -54    
  -24 name==ch                                          -47          "mgc_s2_4" 
- -25 cor==+                                            -48        -29    
+ -25 cor==+                                            -48        -30    
  -26 prev_cor==+                                         "mgc_s2_6"       "mgc_s2_5" 
  -27 cont==-                                           -62        -56    
  -28 name==w                                             "mgc_s2_8"       "mgc_s2_7" 
- -29 name==s                                            "mgc_s2_10"       "mgc_s2_9" 
- -30 num_words_in_prev_phrase<=0                        "mgc_s2_12"      "mgc_s2_11" 
- -31 name==z                                            "mgc_s2_14"      "mgc_s2_13" 
- -32 name==ih                                           "mgc_s2_16"      "mgc_s2_15" 
- -33 prev_clab==+                                      -58         "mgc_s2_17" 
+ -29 num_words_in_prev_phrase<=0                        "mgc_s2_10"       "mgc_s2_9" 
+ -30 name==s                                            "mgc_s2_12"      "mgc_s2_11" 
+ -31 prev_clab==+                                      -58         "mgc_s2_13" 
+ -32 name==ih                                           "mgc_s2_15"      "mgc_s2_14" 
+ -33 name==z                                            "mgc_s2_17"      "mgc_s2_16" 
  -34 prev_vrnd==+                                       "mgc_s2_19"      "mgc_s2_18" 
- -35 prev_son==-                                        "mgc_s2_20"     -60    
+ -35 prev_son==-                                        "mgc_s2_20"     -59    
  -36 clab==+                                            "mgc_s2_22"      "mgc_s2_21" 
- -37 prev_vrnd==+                                      -38         "mgc_s2_23" 
- -38 prev_name==a                                      -42         "mgc_s2_24" 
- -39 prev_clab==+                                      -51        -46    
+ -37 prev_vrnd==+                                      -39         "mgc_s2_23" 
+ -38 prev_clab==+                                      -50        -46    
+ -39 prev_name==a                                      -42         "mgc_s2_24" 
  -40 vrnd==+&&vheight==2                                "mgc_s2_26"      "mgc_s2_25" 
  -41 name==y                                           -49         "mgc_s2_27" 
- -42 prev_name==e                                      -52        -61    
+ -42 prev_name==e                                      -51        -61    
  -43 vrnd==-                                            "mgc_s2_29"      "mgc_s2_28" 
  -44 cplace==p                                          "mgc_s2_31"      "mgc_s2_30" 
- -45 clab==+                                           -59         "mgc_s2_32" 
+ -45 clab==+                                           -60         "mgc_s2_32" 
  -46 name==a                                            "mgc_s2_34"      "mgc_s2_33" 
  -47 name==ci                                          -55         "mgc_s2_35" 
  -48 name==h                                            "mgc_s2_37"      "mgc_s2_36" 
  -49 cplace==a                                          "mgc_s2_39"      "mgc_s2_38" 
- -50 prev_cplace==p                                    -53         "mgc_s2_40" 
- -51 prev_name==zh                                      "mgc_s2_42"      "mgc_s2_41" 
- -52 prev_cont==-&&clab==+                              "mgc_s2_44"      "mgc_s2_43" 
+ -50 prev_name==zh                                      "mgc_s2_41"      "mgc_s2_40" 
+ -51 prev_cont==-&&clab==+                              "mgc_s2_43"      "mgc_s2_42" 
+ -52 prev_cplace==p                                    -53         "mgc_s2_44" 
  -53 name==u                                            "mgc_s2_46"      "mgc_s2_45" 
  -54 clab==+                                            "mgc_s2_48"      "mgc_s2_47" 
  -55 prev_name==a                                       "mgc_s2_50"      "mgc_s2_49" 
  -56 name==k                                            "mgc_s2_52"      "mgc_s2_51" 
  -57 next_next_name==en                                 "mgc_s2_54"      "mgc_s2_53" 
  -58 prev_name==zh                                      "mgc_s2_56"      "mgc_s2_55" 
- -59 prev_vfront==1&&vrnd==+                            "mgc_s2_58"      "mgc_s2_57" 
- -60 prev_cplace==b                                     "mgc_s2_60"      "mgc_s2_59" 
+ -59 prev_cplace==b                                     "mgc_s2_58"      "mgc_s2_57" 
+ -60 prev_vfront==1&&vrnd==+                            "mgc_s2_60"      "mgc_s2_59" 
  -61 prev_prev_clab==+                                  "mgc_s2_62"      "mgc_s2_61" 
  -62 word_gpos==conj                                    "mgc_s2_64"      "mgc_s2_63" 
 }
@@ -208,14 +209,14 @@ QS num_words_in_utt==11 { "*+11-*" }
 {
    0 vc==+                                              -1         -4    
   -1 cvox==+                                            -3         -2    
-  -2 son==+                                             -9         -7    
+  -2 cvox==+&&son==-                                    -7         -9    
   -3 name==k                                            -5        -50    
   -4 vheight==3                                         -6        -13    
   -5 cont==+                                           -10        -16    
-  -6 vfront==3&&vrnd==-                                 -8        -28    
+  -6 vfront==3&&vrnd==-                                 -8        -29    
   -7 cor==+                                            -12          "mgc_s3_1" 
   -8 name==a                                           -11        -15    
-  -9 cont==-&&cvox==+&&son==-                          -18        -17    
+  -9 cont==+                                           -17        -18    
  -10 cvox==-&&ctype==a                                 -14        -26    
  -11 name==ih                                          -20        -49    
  -12 son==+&&clab==+                                   -19        -24    
@@ -224,9 +225,9 @@ QS num_words_in_utt==11 { "*+11-*" }
  -15 prev_clab==+                                      -33          "mgc_s3_2" 
  -16 cvox==-&&ctype==f&&cplace==p                      -23        -25    
  -17 cvox==+&&ctype==s                                   "mgc_s3_3"     -35    
- -18 name==v                                           -29          "mgc_s3_4" 
+ -18 name==v                                           -28          "mgc_s3_4" 
  -19 cont==+&&cplace==p                                -31        -30    
- -20 vfront==1                                           "mgc_s3_5"     -22    
+ -20 vfront==3&&vheight==2                             -22          "mgc_s3_5" 
  -21 next_name==x                                      -27          "mgc_s3_6" 
  -22 prev_cor==+&&cplace==a                            -38        -37    
  -23 cor==+                                            -48          "mgc_s3_7" 
@@ -234,8 +235,8 @@ QS num_words_in_utt==11 { "*+11-*" }
  -25 prev_son==-&&clab==+                               "mgc_s3_11"      "mgc_s3_10" 
  -26 name==ch                                          -36         "mgc_s3_12" 
  -27 syl_pos_in_phrase_fw<=1                            "mgc_s3_13"     -46    
- -28 prev_cplace==p                                    -43        -40    
- -29 cplace==p                                          "mgc_s3_14"     -57    
+ -28 cplace==p                                          "mgc_s3_14"     -57    
+ -29 prev_cplace==p                                    -43        -40    
  -30 prev_son==-                                        "mgc_s3_16"      "mgc_s3_15" 
  -31 name==ni                                          -39         "mgc_s3_17" 
  -32 phrase_pos_in_utt_fw==x                           -45         "mgc_s3_18" 
@@ -246,21 +247,21 @@ QS num_words_in_utt==11 { "*+11-*" }
  -37 prev_son==-                                        "mgc_s3_25"      "mgc_s3_24" 
  -38 prev_son==-&&clab==+                              -51        -55    
  -39 prev_son==-                                        "mgc_s3_27"      "mgc_s3_26" 
- -40 prev_son==+&&cplace==p                            -52         "mgc_s3_28" 
+ -40 prev_son==+&&cplace==p                            -53         "mgc_s3_28" 
  -41 prev_cor==+&&cplace==a                            -47         "mgc_s3_29" 
  -42 prev_name==r                                       "mgc_s3_31"      "mgc_s3_30" 
  -43 prev_clab==+                                       "mgc_s3_33"      "mgc_s3_32" 
  -44 prev_son==-                                        "mgc_s3_35"      "mgc_s3_34" 
  -45 cor==+                                             "mgc_s3_36"     -56    
- -46 prev_prev_name==x                                  "mgc_s3_38"      "mgc_s3_37" 
+ -46 num_syls_in_prev_phrase<=1                         "mgc_s3_38"      "mgc_s3_37" 
  -47 phrase_pos_in_utt_bw<=5                            "mgc_s3_40"      "mgc_s3_39" 
  -48 name==h                                            "mgc_s3_42"      "mgc_s3_41" 
  -49 prev_csib==+                                       "mgc_s3_44"      "mgc_s3_43" 
  -50 prev_son==-                                        "mgc_s3_46"      "mgc_s3_45" 
- -51 prev_son==-                                       -53         "mgc_s3_47" 
- -52 syl_vowel==en                                      "mgc_s3_49"      "mgc_s3_48" 
- -53 prev_ccor==+                                       "mgc_s3_51"      "mgc_s3_50" 
- -54 name==d                                            "mgc_s3_53"      "mgc_s3_52" 
+ -51 prev_son==-                                       -52         "mgc_s3_47" 
+ -52 prev_ctype==n&&ccor==+                             "mgc_s3_49"      "mgc_s3_48" 
+ -53 syl_vowel==en                                      "mgc_s3_51"      "mgc_s3_50" 
+ -54 name==g                                            "mgc_s3_53"      "mgc_s3_52" 
  -55 phrase_pos_in_utt_bw<=5                            "mgc_s3_55"      "mgc_s3_54" 
  -56 prev_csib==+&&cplace==a                            "mgc_s3_57"      "mgc_s3_56" 
  -57 name==zi                                           "mgc_s3_59"      "mgc_s3_58" 
@@ -273,7 +274,7 @@ QS num_words_in_utt==11 { "*+11-*" }
   -2 csib==+                                            -4         -6    
   -3 name==r                                            -8          "mgc_s4_1" 
   -4 cont==+                                            -9        -14    
-  -5 vrnd==-                                           -13         -7    
+  -5 vrnd==+                                            -7        -13    
   -6 cplace==p                                         -16        -18    
   -7 name==a                                           -11        -26    
   -8 cplace==p                                         -15        -12    
@@ -285,7 +286,7 @@ QS num_words_in_utt==11 { "*+11-*" }
  -14 name==v                                           -21          "mgc_s4_6" 
  -15 name==w                                           -22          "mgc_s4_7" 
  -16 cvox==+&&csib==+&&cplace==a                       -24          "mgc_s4_8" 
- -17 cvox==+                                           -25        -52    
+ -17 cvox==+                                           -25        -51    
  -18 cvox==+&&csib==+&&cplace==p                       -19        -35    
  -19 name==sh                                          -28        -46    
  -20 name==ih                                          -29        -33    
@@ -306,10 +307,10 @@ QS num_words_in_utt==11 { "*+11-*" }
  -35 cor==+                                             "mgc_s4_23"      "mgc_s4_22" 
  -36 cont==+                                            "mgc_s4_25"      "mgc_s4_24" 
  -37 prev_cplace==a                                    -43         "mgc_s4_26" 
- -38 prev_son==-                                        "mgc_s4_27"     -47    
+ -38 prev_son==+&&cplace==a                            -47         "mgc_s4_27" 
  -39 prev_ctype==n&&ccor==+                            -44         "mgc_s4_28" 
  -40 next_name==g                                      -49         "mgc_s4_29" 
- -41 next_syl_length<=0                                -51         "mgc_s4_30" 
+ -41 next_syl_length<=0                                -52         "mgc_s4_30" 
  -42 next_next_name==x                                  "mgc_s4_32"      "mgc_s4_31" 
  -43 next_clab==+                                       "mgc_s4_34"      "mgc_s4_33" 
  -44 prev_name==r                                       "mgc_s4_36"      "mgc_s4_35" 
@@ -319,64 +320,64 @@ QS num_words_in_utt==11 { "*+11-*" }
  -48 num_syls_in_next_phrase==10                        "mgc_s4_44"      "mgc_s4_43" 
  -49 num_words_in_utt==11                               "mgc_s4_46"      "mgc_s4_45" 
  -50 next_next_name==x                                  "mgc_s4_48"      "mgc_s4_47" 
- -51 prev_name==i                                       "mgc_s4_50"      "mgc_s4_49" 
- -52 clab==+                                            "mgc_s4_52"      "mgc_s4_51" 
+ -51 clab==+                                            "mgc_s4_50"      "mgc_s4_49" 
+ -52 prev_name==i                                       "mgc_s4_52"      "mgc_s4_51" 
  -53 name==t                                            "mgc_s4_54"      "mgc_s4_53" 
- -54 prev_son==-                                        "mgc_s4_56"      "mgc_s4_55" 
+ -54 prev_son==+&&cplace==p                             "mgc_s4_56"      "mgc_s4_55" 
 }
 
 {*}[5]
 {
-   0 son==-                                             -1         -3    
-  -1 pos_in_syl_bw==x                                   -2        -11    
-  -2 son==+&&cplace==a                                  -4         -9    
-  -3 cvox==-                                            -7         -5    
-  -4 cvox==+&&cplace==p                                 -6        -13    
+   0 son==-                                             -1         -4    
+  -1 pos_in_syl_fw==x                                   -2        -11    
+  -2 son==+&&cplace==a                                  -3         -9    
+  -3 cvox==+&&cplace==p                                 -6        -13    
+  -4 cvox==-                                            -7         -5    
   -5 cvox==-&&csib==+                                  -12        -10    
   -6 name==i                                            -8          "mgc_s5_1" 
   -7 cvox==+&&ctype==s                                 -19        -37    
-  -8 vrnd==-                                           -16        -14    
-  -9 cor==+                                            -33        -38    
- -10 cplace==p                                         -23        -17    
+  -8 vrnd==-                                           -17        -14    
+  -9 cor==+                                            -32        -38    
+ -10 cplace==p                                         -23        -16    
  -11 num_syls_in_next_phrase<=1                        -22          "mgc_s5_2" 
- -12 cor==+                                            -15        -36    
+ -12 cor==+                                            -15        -35    
  -13 name==y                                             "mgc_s5_4"       "mgc_s5_3" 
  -14 name==a                                           -20        -25    
  -15 cvox==-&&clab==+                                  -24        -41    
- -16 vfront==1&&vrnd==+                                -18        -27    
- -17 next_vc==+                                        -35        -42    
- -18 cont==+&&cvox==+                                  -31          "mgc_s5_5" 
+ -16 next_vc==+                                        -36        -42    
+ -17 vfront==1&&vrnd==+                                -18        -27    
+ -18 cont==+                                           -31          "mgc_s5_5" 
  -19 csib==+                                             "mgc_s5_6"     -26    
  -20 name==en                                          -21          "mgc_s5_7" 
- -21 next_cor==+                                       -32          "mgc_s5_8" 
- -22 next_cvox==-                                        "mgc_s5_9"     -45    
+ -21 next_cor==+                                       -33          "mgc_s5_8" 
+ -22 next_cvox==-                                        "mgc_s5_9"     -46    
  -23 next_cont==-&&cplace==a                           -39         "mgc_s5_10" 
  -24 next_vrnd==+                                      -29         "mgc_s5_11" 
- -25 next_clab==+                                      -46         "mgc_s5_12" 
+ -25 next_clab==+                                      -47         "mgc_s5_12" 
  -26 cor==+&&cvox==+&&cplace==p                        -30         "mgc_s5_13" 
- -27 next_cplace==a                                    -28        -44    
- -28 next_cplace==p                                    -49        -43    
- -29 next_vheight==3                                    "mgc_s5_15"      "mgc_s5_14" 
- -30 cor==+&&son==-                                    -34        -48    
- -31 next_cont==-&&son==-                               "mgc_s5_17"      "mgc_s5_16" 
- -32 next_clab==+                                       "mgc_s5_19"      "mgc_s5_18" 
- -33 name==n                                           -40         "mgc_s5_20" 
- -34 next_ccor==+                                       "mgc_s5_22"      "mgc_s5_21" 
- -35 next_ctype==n&&ccor==+                             "mgc_s5_24"      "mgc_s5_23" 
- -36 prev_csib==+&&cplace==a                            "mgc_s5_26"      "mgc_s5_25" 
- -37 cplace==v                                         -47         "mgc_s5_27" 
- -38 next_vrnd==+                                       "mgc_s5_29"      "mgc_s5_28" 
- -39 next_son==-                                        "mgc_s5_31"      "mgc_s5_30" 
- -40 next_name==i                                       "mgc_s5_33"      "mgc_s5_32" 
- -41 cont==-                                            "mgc_s5_35"      "mgc_s5_34" 
- -42 name==sh                                           "mgc_s5_37"      "mgc_s5_36" 
- -43 vheight==3                                         "mgc_s5_39"      "mgc_s5_38" 
- -44 vheight==2                                         "mgc_s5_41"      "mgc_s5_40" 
- -45 num_syls_in_prev_word==4                           "mgc_s5_43"      "mgc_s5_42" 
- -46 next_son==-&&cplace==a                             "mgc_s5_45"      "mgc_s5_44" 
- -47 name==d                                            "mgc_s5_47"      "mgc_s5_46" 
- -48 next_vc==+                                         "mgc_s5_49"      "mgc_s5_48" 
- -49 vheight==3                                         "mgc_s5_51"      "mgc_s5_50" 
+ -27 next_cplace==a                                    -28        -43    
+ -28 next_cplace==p                                     "mgc_s5_14"     -45    
+ -29 next_vheight==3                                    "mgc_s5_16"      "mgc_s5_15" 
+ -30 cor==+&&son==-                                    -34        -44    
+ -31 next_cont==-&&son==-                               "mgc_s5_18"      "mgc_s5_17" 
+ -32 name==n                                           -40         "mgc_s5_19" 
+ -33 next_clab==+                                       "mgc_s5_21"      "mgc_s5_20" 
+ -34 next_ccor==+                                       "mgc_s5_23"      "mgc_s5_22" 
+ -35 prev_csib==+&&cplace==a                            "mgc_s5_25"      "mgc_s5_24" 
+ -36 next_ctype==n&&ccor==+                             "mgc_s5_27"      "mgc_s5_26" 
+ -37 cplace==v                                         -48         "mgc_s5_28" 
+ -38 next_vrnd==+                                       "mgc_s5_30"      "mgc_s5_29" 
+ -39 next_son==-                                        "mgc_s5_32"      "mgc_s5_31" 
+ -40 next_name==i                                       "mgc_s5_34"      "mgc_s5_33" 
+ -41 cont==-                                            "mgc_s5_36"      "mgc_s5_35" 
+ -42 name==sh                                           "mgc_s5_38"      "mgc_s5_37" 
+ -43 vheight==2                                         "mgc_s5_40"      "mgc_s5_39" 
+ -44 next_vc==+                                        -49         "mgc_s5_41" 
+ -45 vheight==3                                         "mgc_s5_43"      "mgc_s5_42" 
+ -46 num_syls_in_prev_word==4                           "mgc_s5_45"      "mgc_s5_44" 
+ -47 next_son==-&&cplace==a                             "mgc_s5_47"      "mgc_s5_46" 
+ -48 name==d                                            "mgc_s5_49"      "mgc_s5_48" 
+ -49 next_cvox==+                                       "mgc_s5_51"      "mgc_s5_50" 
 }
 
 {*}[6]
@@ -392,48 +393,48 @@ QS num_words_in_utt==11 { "*+11-*" }
   -8 next_son==-&&cplace==a                            -15        -14    
   -9 cplace==p                                         -11        -35    
  -10 name==r                                           -45        -38    
- -11 cvox==-&&cplace==a                                -21        -28    
- -12 cvox==+&&csib==+                                  -17        -18    
+ -11 cvox==-&&cplace==a                                -21        -29    
+ -12 cvox==+&&csib==+                                  -19        -17    
  -13 cont==-                                           -49        -44    
  -14 vrnd==-                                           -20        -30    
  -15 vrnd==-                                           -24        -23    
- -16 vc==-                                             -19        -31    
- -17 cont==-                                           -41        -32    
- -18 next_vc==+                                          "mgc_s6_1"     -27    
- -19 next_son==+&&cplace==p                            -26        -52    
+ -16 vc==-                                             -18        -31    
+ -17 next_vc==+                                          "mgc_s6_1"     -28    
+ -18 next_son==+&&cplace==p                            -26        -52    
+ -19 cont==-                                           -40        -32    
  -20 vfront==1                                           "mgc_s6_3"       "mgc_s6_2" 
  -21 clab==+                                           -39        -47    
  -22 next_name==x                                        "mgc_s6_5"       "mgc_s6_4" 
- -23 next_clab==+                                      -29          "mgc_s6_6" 
+ -23 next_clab==+                                      -27          "mgc_s6_6" 
  -24 vc==+                                             -33        -43    
  -25 next_cont==-&&cplace==a                           -46          "mgc_s6_7" 
- -26 next_cplace==a                                    -50        -42    
- -27 cplace==p                                           "mgc_s6_8"     -37    
- -28 next_vc==+                                          "mgc_s6_9"     -34    
- -29 next_csib==+                                       "mgc_s6_11"      "mgc_s6_10" 
+ -26 next_cplace==a                                    -51        -42    
+ -27 next_csib==+                                        "mgc_s6_9"       "mgc_s6_8" 
+ -28 cplace==p                                          "mgc_s6_10"     -36    
+ -29 next_vc==+                                         "mgc_s6_11"     -34    
  -30 name==a                                           -55         "mgc_s6_12" 
  -31 name==w                                            "mgc_s6_14"      "mgc_s6_13" 
  -32 name==d                                            "mgc_s6_16"      "mgc_s6_15" 
- -33 name==r                                           -36         "mgc_s6_17" 
+ -33 name==r                                           -37         "mgc_s6_17" 
  -34 next_vrnd==-                                       "mgc_s6_19"      "mgc_s6_18" 
- -35 next_vc==+                                         "mgc_s6_20"     -40    
- -36 syl_pos_in_phrase_bw<=1                           -56         "mgc_s6_21" 
- -37 cor==+&&son==-                                     "mgc_s6_23"      "mgc_s6_22" 
+ -35 next_vc==+                                         "mgc_s6_20"     -41    
+ -36 cor==+&&son==-                                     "mgc_s6_22"      "mgc_s6_21" 
+ -37 syl_pos_in_phrase_bw<=1                           -56         "mgc_s6_23" 
  -38 next_vrnd==+                                       "mgc_s6_25"      "mgc_s6_24" 
  -39 next_name==i                                      -53         "mgc_s6_26" 
- -40 next_name==i                                       "mgc_s6_28"      "mgc_s6_27" 
- -41 next_name==a                                       "mgc_s6_30"      "mgc_s6_29" 
+ -40 next_name==a                                       "mgc_s6_28"      "mgc_s6_27" 
+ -41 next_name==i                                       "mgc_s6_30"      "mgc_s6_29" 
  -42 next_name==r                                      -48         "mgc_s6_31" 
- -43 next_csib==+&&cplace==p                           -51         "mgc_s6_32" 
+ -43 next_csib==+&&cplace==p                           -50         "mgc_s6_32" 
  -44 next_vrnd==-&&vheight==2                           "mgc_s6_34"      "mgc_s6_33" 
  -45 cont==-                                            "mgc_s6_36"      "mgc_s6_35" 
  -46 next_name==k                                       "mgc_s6_38"      "mgc_s6_37" 
  -47 next_vfront==1&&vrnd==+                            "mgc_s6_40"      "mgc_s6_39" 
  -48 name==i                                            "mgc_s6_42"      "mgc_s6_41" 
  -49 next_vc==+                                         "mgc_s6_44"      "mgc_s6_43" 
- -50 vheight==3                                         "mgc_s6_46"      "mgc_s6_45" 
- -51 name==o                                            "mgc_s6_48"      "mgc_s6_47" 
- -52 vfront==1&&vrnd==+                                 "mgc_s6_50"      "mgc_s6_49" 
+ -50 name==o                                            "mgc_s6_46"      "mgc_s6_45" 
+ -51 vheight==3                                         "mgc_s6_48"      "mgc_s6_47" 
+ -52 vrnd==-                                            "mgc_s6_50"      "mgc_s6_49" 
  -53 next_vrnd==+&&vheight==2                           "mgc_s6_52"      "mgc_s6_51" 
  -54 next_ctype==f&&csib==+                             "mgc_s6_54"      "mgc_s6_53" 
  -55 next_ctype==f&&cplace==a                           "mgc_s6_56"      "mgc_s6_55" 
