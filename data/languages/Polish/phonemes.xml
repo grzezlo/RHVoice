@@ -4,7 +4,7 @@
   <phoneme name="b" vc="-" son="-" cont="-" ctype="s" cplace="b" clab="+" cvox="+"/>
   <phoneme name="c" vc="-" son="-" cont="-" ctype="a" csib="+" cor="+" cplace="a" cvox="-"/>
   <phoneme name="ch" vc="-" son="-" cont="-" ctype="a" csib="+" cor="+" cplace="p" cvox="-"/>
-  <phoneme name="ci" vc="-" son="-" cont="-" ctype="a" csib="+" cor="+" cplace="p" cvox="-"/>
+  <phoneme name="ci" vc="-" son="-" cont="-" ctype="a" cstop="+" csib="+" cor="+" cplace="p" cvox="-"/>
   <phoneme name="d" vc="-" son="-" cont="-" ctype="s" cor="+" cplace="a" cvox="+"/>
   <phoneme name="dz" vc="-" son="-" cont="-" ctype="a" csib="+" cor="+" cplace="a" cvox="+"/>
   <phoneme name="dzi" vc="-" son="-" ctype="a" cstop="+" cfric="+" csib="+" cor="+" cplace="p" cvox="+" cons="+"/>
@@ -27,7 +27,7 @@
   <phoneme name="r" vc="-" son="+" cont="+" ctype="l" cor="+" cplace="a" cvox="+"/>
   <phoneme name="s" vc="-" son="-" cont="+" ctype="f" csib="+" cor="+" cplace="a" cvox="-"/>
   <phoneme name="sh" vc="-" son="-" cont="+" ctype="f" csib="+" cor="+" cplace="p" cvox="-"/>
-  <phoneme name="si" vc="-" son="-" cont="+" ctype="f" csib="+" cor="+" cplace="p" cvox="-"/>
+  <phoneme name="si" vc="-" son="-" cont="+" ctype="f" cfric="+" csib="+" cor="+" cplace="p" cvox="-"/>
   <phoneme name="t" vc="-" son="-" cont="-" ctype="s" cor="+" cplace="a" cvox="-"/>
   <phoneme name="u" vc="+" vheight="3" vfront="1" vrnd="+"/>
   <phoneme name="v" vc="-" son="-" cont="+" ctype="f" cplace="b" clab="+" cvox="+"/>
