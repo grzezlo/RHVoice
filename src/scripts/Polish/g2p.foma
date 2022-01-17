@@ -96,7 +96,19 @@ ih @-> ih2 || {ant} _ VowelPhonem,,
 .#. (n i e) p o _ e m,
 #podzięb:
 .#. (n i e) p o _ en b ,,
-#leave "z i", not convert to zi:
+#d ż, nie dż:
+[dzh] @-> dzh2 ||
+#budże*
+{bu} _ e,
+#nadżarcie, nadżerka, podżartować:
+{na}|{po} _ [a|e] r,
+#podżarcie, podżółkły, podżuchwowa, podżyrować:
+{po} _ [a|e|u|ih],,
+#si not converted to "si":
+{si} @-> si2 ||
+#sigm, sign, siglum, pleksiglas:
+_ g [l|m|n] ,,
+#"z i", not convert to zi:
 {zi} @-> zi2 ||
 #*bezi (not bezik*)
 .#. [u | n i e | 0] b e _ \k,
@@ -109,6 +121,8 @@ zh @-> zh2 ||
 
 define UnflagExceptions [
 dzi2:[d zi] |
+dzh2:[d zh] |
+si2: [s i] |
 ih2: ih |
 zi2:[z i] |
 zh2:zh ] @-> || _ ;
