@@ -50,7 +50,6 @@ t:t |
 u:u | 
 w:v | 
 v:v | 
-x:{ks} | 
 y:ih | 
 z:z | 
 ź:zi |
@@ -63,8 +62,8 @@ define processMultigraphs1
 {rz} @-> rz ||
 #zamarza, marzli, marzł, marznie...
 {ma} _ a|l|w|n|ni ,
-#superzdrowy, hiperzręczny:
-{supe}| {hipe} _ ;
+#superzdrowy, hiperzręczny, cyberzagrożenia:
+{supe}| {hipe} | [c  ih b e] _ ;
 
 
 define processMultigraphs2 
@@ -88,6 +87,32 @@ v:f|
 z: s|
 zh:sh] ;
 
+define FlagExceptions 
+#antyatom, antyenergetyczny, antyimport, antyoksydant, antyustrojowy:
+ih @-> ih2 || {ant} _ VowelPhonem,,
+#d zi, not dzi:
+[dz i] @-> dzi2 ||
+#podziemię, niepodziemny:
+.#. (n i e) p o _ e m,
+#podzięb:
+.#. (n i e) p o _ en b ,,
+#leave "z i", not convert to zi:
+{zi} @-> zi2 ||
+#*bezi (not bezik*)
+.#. [u | n i e | 0] b e _ \k,
+#rozigrane, nieroziskrzone, 
+.#. (n i e) r o _ ,,
+#Not soften zh:
+zh @-> zh2 ||
+#także wszakże jakże:
+{ak} _ e .#. ;
+
+define UnflagExceptions [
+dzi2:[d zi] |
+ih2: ih |
+zi2:[z i] |
+zh2:zh ] @-> || _ ;
+
 define Stage2 
 Softening @-> || SofteningConsonantPhonem _ ,
  _ SofteningConsonantPhonem,
@@ -104,6 +129,7 @@ Softening @-> || SofteningConsonantPhonem _ ,
 {si}: [si i] | 
 [dz i]: [dzi i] ] @-> || _ [\VowelPhonem | .#. ],,
 #"zi" to z i or "zi i":
+#in the middle of word
 {zi} @-> [zi i] || \.#. _ \VowelPhonem|.#. ,
 #zim, zima, zimie, zimo, zimu, zimy:
 .#. _ m [.#.|a|on|en|i|n|o|u|ih],
@@ -111,6 +137,13 @@ Softening @-> || SofteningConsonantPhonem _ ,
 .#. _ p,,
 #e.g. historia to historja:
 i @-> y || _ VowelPhonem ,,
+#e.g.: fixing...
+x:{ks}  @-> || _ ,,
+#boya, yeti, boye, bayerowski, boyizm
+ih @-> y ||
+_ VowelPhonem,
+#boys
+b o _ s ,,
 #e.g.: zaczął=zaczoł, zaczęła=zaczeła:
 [on : o |
 en: e] @-> || _ w ;
@@ -142,5 +175,8 @@ regex Stage1 .o.
 processMultigraphs1 .o.
 processMultigraphs2 .o.
 processMultigraphs3 .o.
+FlagExceptions .o.
 Stage2 .o.
-procStress1 .o. procStress2;
+UnflagExceptions .o.
+procStress1 .o.
+procStress2;
