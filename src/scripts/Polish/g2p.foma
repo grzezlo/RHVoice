@@ -156,10 +156,9 @@ Softening @-> || SofteningConsonantPhonem _ ,
 .#. _ p,,
 #e.g. historia to historja:
 i @-> y || _ VowelPhonem ,,
-#e.g.: fixing...
 #boya, yeti, boye, bayerowski, boyizm
 ih @-> y ||
-_ VowelPhonem,
+.#. | VowelPhonem _ VowelPhonem,
 #boys, boysband,
 b o _ s ,,
 #e.g.: zaczął=zaczoł, zaczęła=zaczeła:
