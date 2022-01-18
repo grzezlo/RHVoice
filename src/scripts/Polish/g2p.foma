@@ -81,7 +81,7 @@ rz @-> r z || _ ;
 
 define VowelPhonem [a | on | e | en | i | o | u | ih ] ;
 define ConsonantPhonem [b|c|ch|ci|d|dz|dzi|dzh|f|g|h|y|k|l|w|m|n|ni|p|r|s|sh|si|t|v|z|zi|zh] ;
-define SofteningConsonantPhonem [c|ch|h|k|p|s|sh|si|t] ;
+define SofteningConsonantPhonem [c|ch|f|h|k|p|s|sh|si|t] ;
 define Softening [
 v:f|
 z: s|
@@ -156,7 +156,7 @@ x:{ks}  @-> || _ ,,
 #boya, yeti, boye, bayerowski, boyizm
 ih @-> y ||
 _ VowelPhonem,
-#boys
+#boys, boysband,
 b o _ s ,,
 #e.g.: zaczął=zaczoł, zaczęła=zaczeła:
 [on : o |
