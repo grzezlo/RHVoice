@@ -40,3 +40,6 @@
 [submodule "data/voices/vitaliy"]
 	path = data/voices/vitaliy
 	url = https://github.com/rhvoice/vitaliy-rus
+[submodule "data/voices/magda"]
+	path = data/voices/magda
+	url = https://github.com/RHVoice/magda-pol
