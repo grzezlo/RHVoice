@@ -50,6 +50,7 @@ t:t |
 u:u | 
 w:v | 
 v:v | 
+x:{ks} |
 y:ih | 
 z:z | 
 ź:zi |
@@ -62,6 +63,8 @@ define processMultigraphs1
 {rz} @-> rz ||
 #zamarza, marzli, marzł, marznie...
 {ma} _ a|l|w|n|ni ,
+#mierzi, obmierzł, zmierzły, not mierzy, mierz...
+m i e _ i|w,
 #superzdrowy, hiperzręczny, cyberzagrożenia:
 {supe}| {hipe} | [c  ih b e] _ ;
 
@@ -154,7 +157,6 @@ Softening @-> || SofteningConsonantPhonem _ ,
 #e.g. historia to historja:
 i @-> y || _ VowelPhonem ,,
 #e.g.: fixing...
-x:{ks}  @-> || _ ,,
 #boya, yeti, boye, bayerowski, boyizm
 ih @-> y ||
 _ VowelPhonem,
