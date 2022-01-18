@@ -107,7 +107,9 @@ ih @-> ih2 || {ant} _ VowelPhonem,,
 #si not converted to "si":
 {si} @-> si2 ||
 #sigm, sign, siglum, pleksiglas:
-_ g [l|m|n] ,,
+_ g [l|m|n],
+#sinus, singiel, single, not sina, sinego...:
+_ n [ g | u ],,
 #"z i", not convert to zi:
 {zi} @-> zi2 ||
 #*bezi (not bezik*)
