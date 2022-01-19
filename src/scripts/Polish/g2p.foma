@@ -171,6 +171,7 @@ VowelPhonem _ \VowelPhonem ,,
 #e.g.: zaczął=zaczoł, zaczęła=zaczeła:
 [on : o |
 en: e] @-> || _ w ,,
+k l i e @-> k l i y e || _ ,,
 #x na ks:
 x @-> k s || _ ;
 
