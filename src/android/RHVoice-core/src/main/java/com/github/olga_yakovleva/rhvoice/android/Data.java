@@ -94,7 +94,6 @@ public final class Data
         addLanguage(lang);
         lang=new LanguagePack("Polish", "pol", "pl", "POL", "PL", false, 1, 5, Checksums.LANGUAGE_POLISH, "https://zlotowicz.pl/files/RHVoice-language-Polish-v1.5.zip", null);
         lang.addVoice(new VoicePack("Magda", lang, 4, 8, Checksums.VOICE_MAGDA, "https://zlotowicz.pl/files/RHVoice-voice-Polish-Magda-v4.8.zip", null));
-        lang.addVoice(new VoicePack("Lvoxpiotr", lang, 4, 1, Checksums.VOICE_LVOXPIOTR, "https://przytulnemiejsce.pl/asael/RHVoice-voice-Polish-Lvoxpiotr-v4.1.zip", null));
         addLanguage(lang);
 }
 
