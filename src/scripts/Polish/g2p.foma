@@ -50,7 +50,6 @@ t:t |
 u:u | 
 w:v | 
 v:v | 
-x:{ks} |
 y:ih | 
 z:z | 
 ź:zi |
@@ -112,7 +111,11 @@ ih @-> ih2 || {ant} _ VowelPhonem,,
 #sigm, sign, siglum, pleksiglas:
 _ g [l|m|n],
 #sinus, singiel, single, not sina, sinego...:
-_ n [ g | u ],,
+_ n [ g | u ],
+#aksis aksisie not basista
+ _ s [.#.|\t],
+#epsilon, ypsilon
+p _ l ,,
 #"z i", not convert to zi:
 {zi} @-> zi2 ||
 #*bezi (not bezik*)
@@ -122,7 +125,10 @@ _ n [ g | u ],,
 #Not soften zh:
 zh @-> zh2 ||
 #także wszakże jakże:
-{ak} _ e .#. ;
+{ak} _ e .#. ,,
+#xie na ksie:
+x i e @-> k si e || _ ;
+
 
 define UnflagExceptions [
 dzi2:[d zi] |
@@ -156,14 +162,18 @@ Softening @-> || SofteningConsonantPhonem _ ,
 .#. _ p,,
 #e.g. historia to historja:
 i @-> y || _ VowelPhonem ,,
-#boya, yeti, boye, bayerowski, boyizm
+#y jak j:
 ih @-> y ||
-.#. | VowelPhonem _ VowelPhonem,
-#boys, boysband,
-b o _ s ,,
+#boy, boya, yeti, boye, bayerowski, boyizm
+.#. | VowelPhonem _ VowelPhonem|.#.,
+#boys, boysband, disneyland,
+VowelPhonem _ \VowelPhonem ,,
 #e.g.: zaczął=zaczoł, zaczęła=zaczeła:
 [on : o |
-en: e] @-> || _ w ;
+en: e] @-> || _ w ,,
+#x na ks:
+x @-> k s || _ ;
+
 
 define procStress1 [a:a1|
 on:on1|
