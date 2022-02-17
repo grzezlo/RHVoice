@@ -3,11 +3,11 @@ name: CI
 on:
   push:
     branches:
-      - 'master'
+      - 'dpm'
 
   pull_request:
     branches:
-      - 'master'
+      - 'dpm'
 
 jobs:
   androidBuild:
