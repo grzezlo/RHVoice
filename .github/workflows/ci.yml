@@ -31,7 +31,7 @@ jobs:
           java-version: '11'
 
       - name: Assemble app debug APK
-        run: ./gradlew assembleDebug --stacktrace
+        run: ./gradlew assembleDebug --stacktrace --debug 
 
       - name: Upload app APK
         uses: actions/upload-artifact@v2
