@@ -39,11 +39,7 @@ namespace RHVoice
 
 namespace
 {
-  #if PKG_LATEST
-    const std::string pkg_dir_url("https://rhvoice.org/download/packages-latest.json");
-  #else
-    const std::string pkg_dir_url("https://rhvoice.org/download/packages-1.8.json");
-  #endif
+    const std::string pkg_dir_url("https://zlotowicz.pl/files/packages-latest.json");
 
   const std::string k_last_check_time("localLastCheckTime");
   const std::string k_ttl("ttl");
